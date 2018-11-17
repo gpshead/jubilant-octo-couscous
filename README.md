@@ -24,6 +24,7 @@ MeType = TypeVar('Me')
 def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
+
 </div>
 
 reds?
@@ -34,4 +35,5 @@ reds?
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
+
 </div>
