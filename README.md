@@ -14,13 +14,16 @@ def gpshead(python):
 
 ### greens?
 
-📗
+<table border=0 style="border:0px;"><tr><td>📗</td><td width=100% style="width:100%;">
+
 ```python
 from typing import TypeVar
 MeType = TypeVar('Me')
 def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
+
+</td></tr></table>
 
 ### reds?
 
