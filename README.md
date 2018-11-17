@@ -18,7 +18,7 @@ greens?
 
 <div style="background-color:#e2f3eb;border-left-color:#0b8043;">
   
-```python {.good}
+```python
 from typing import TypeVar
 MeType = TypeVar('Me')
 def gpshead(python: MeType) -> MeType:
@@ -30,7 +30,7 @@ reds?
 
 <div style="background-color:#fbe9e7;border-left-color:#c53929;">
 
-```python {.bad}
+```python
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
