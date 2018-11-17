@@ -16,24 +16,26 @@ can i control the formatting of that?
 
 greens?
 
-<div style="background-color:#e2f3eb;border-left-color:#0b8043;">
+<span style="background-color:#e2f3eb;border-left-color:#0b8043;">
   
 ```python
+# 📗
 from typing import TypeVar
 MeType = TypeVar('Me')
 def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
 
-</div>
+</span>
 
 reds?
 
-<pre style="background-color:#fbe9e7;border-left-color:#c53929;">
+<span style="background-color:#fbe9e7;border-left-color:#c53929;">
 
 ```python
+# 🛑
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
 
-</pre>
+</span>
