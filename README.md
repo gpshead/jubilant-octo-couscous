@@ -21,7 +21,7 @@ greens?
 ```python {.good}
 from typing import TypeVar
 MeType = TypeVar('Me')
-def gpshead(python: Me) -> MeType:
+def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
 </div>
