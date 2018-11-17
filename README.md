@@ -16,7 +16,7 @@ can i control the formatting of that?
 
 greens?
 
-<span style="background-color:#e2f3eb;border-left-color:#0b8043;">
+<div style="background-color:#e2f3eb;border-left-color:#0b8043;">
   
 ```python
 # 📗
@@ -26,11 +26,11 @@ def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
 
-</span>
+</div>
 
 reds?
 
-<span style="background-color:#fbe9e7;border-left-color:#c53929;">
+<div style="background-color:#fbe9e7;border-left-color:#c53929;">
 
 ```python
 # 🛑
@@ -38,4 +38,4 @@ def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
 
-</span>
+</div>
