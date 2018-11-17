@@ -5,37 +5,27 @@ ie: [This README shows up on Pages here](https://gpshead.github.io/jubilant-octo
 
 ## code snippet rendering
 
-normal:
-
 ```python
 def gpshead(python):
     yield from gpshead(python)
 ```
 
-can i control the formatting of that?
+... Can i control the background color of that for good vs bad code examples?
 
-greens?
+### greens?
 
-<div style="background-color:#e2f3eb;border-left-color:#0b8043;">
-  
+📗
 ```python
-# 📗
 from typing import TypeVar
 MeType = TypeVar('Me')
 def gpshead(python: MeType) -> MeType:
     yield from gpshead(python)
 ```
 
-</div>
+### reds?
 
-reds?
-
-<div style="background-color:#fbe9e7;border-left-color:#c53929;">
-
+🛑
 ```python
-# 🛑
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
-
-</div>
