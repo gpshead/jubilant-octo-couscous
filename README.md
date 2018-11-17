@@ -29,11 +29,11 @@ def gpshead(python: MeType) -> MeType:
 
 reds?
 
-<div style="background-color:#fbe9e7;border-left-color:#c53929;">
+<pre style="background-color:#fbe9e7;border-left-color:#c53929;">
 
 ```python
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
 
-</div>
+</pre>
