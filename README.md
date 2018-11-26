@@ -29,3 +29,9 @@ def gpshead(python: MeType) -> MeType:
 def gpshead(python: complex) -> None:
     yield from gpshead(python)
 ```
+
+## Would you like to play a game?
+
+*The only winning move*
+:   is not to play.
+_According to WHOPR_.
