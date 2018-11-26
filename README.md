@@ -32,9 +32,9 @@ def gpshead(python: complex) -> None:
 
 ## Would you like to play a game?
 
-*The only winning move*
-: is not to play.
+**The only winning move**
+:   is not to play.
 _According to WHOPR_.\
-This definition looked wrong in the github markdown on the source tree view with
-multiple spaces after the `:` but looked fine on the github pages jekyll view.
-I've gone back to a single space after the colon now.
+This definition looks wrong in the github markdown on the source tree view, it
+does not understand lines starting with a `:` as a definition.  But The Github
+Pages Jekyll view is happy with it.
