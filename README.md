@@ -32,9 +32,11 @@ def gpshead(python: complex) -> None:
 
 ## Would you like to play a game?
 
-**The only winning move**
+**The only winning move**<br>
 :   is not to play.
-_According to WHOPR_.\
+_According to WHOPR_.<br>
 This definition looks wrong in the github markdown on the source tree view, it
 does not understand lines starting with a `:` as a definition.  But The Github
-Pages Jekyll view is happy with it.
+Pages Jekyll view is happy with it.<br>
+Jekyll doesn't understand lines ending in `\` as a `<br>` newline.  The wonders
+of unspecified formatting languages never cease.
