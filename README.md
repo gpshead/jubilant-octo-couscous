@@ -32,7 +32,7 @@ def gpshead(python: complex) -> None:
 
 ## Would you like to play a game?
 
-**The only winning move**<br>
+**The only winning move**
 :   is not to play.
 _According to WHOPR_.<br>
 This definition looks wrong in the github markdown on the source tree view, it
